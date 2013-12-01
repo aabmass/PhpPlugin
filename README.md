@@ -1,7 +1,7 @@
 PhpPlugin
 =========
 
-A basic, working example of a plugin or SweetHttpd that can extend SweetHttpd to serve pages generated with php.
+A basic, working example of a plugin for SweetHttpd that can extend SweetHttpd to serve pages generated with php.
 
 This example accomplishes this in 62 lines of code.
 
