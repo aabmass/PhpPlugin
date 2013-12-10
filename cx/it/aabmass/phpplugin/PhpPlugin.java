@@ -19,7 +19,7 @@ public class PhpPlugin extends AbstractPlugin {
 
     public void onLoad() {
         //register the handler
-        Registrar.registerMimeType(PhpPlugin.mimeType, PhpPlugin.fileExt, phpHandler);
+        Registrar.registerMimeType(PhpPlugin.mimeType, PhpPlugin.fileExt, false,  phpHandler);
     }
 
     public String getPluginName() {
